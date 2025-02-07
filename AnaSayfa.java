@@ -22,6 +22,7 @@ public class AnaSayfa implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         if(e.getSource() == button)
         {
+            frame.dispose();
             Sayfa sayfa = new Sayfa();
         }
     }
